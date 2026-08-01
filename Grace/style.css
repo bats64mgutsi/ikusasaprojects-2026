@@ -1,0 +1,34 @@
+body {
+height: 100%;
+}
+h1{
+    color: rgb(256, 250, 216);
+}
+h2{
+    color: antiquewhite;
+}
+ul{
+    color: antiquewhite;
+}
+h3{
+    color: aliceblue;
+}
+ul{
+    color: aliceblue;
+}
+ol{
+    color: cornsilk;
+}
+p{
+    color: bisque;
+}
+
+body{
+    background-image: url("background.jpg");
+    /* background-size: cover; */
+     background-size: contain;
+    /* background-position: center center; */
+    min-height: 100dvh;
+    /* background-repeat: repeat; */
+}
+

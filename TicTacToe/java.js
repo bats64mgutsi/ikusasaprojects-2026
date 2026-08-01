@@ -1,0 +1,1 @@
+console .log("\x1b[34mThis Text is Blue\x1b[0m");
