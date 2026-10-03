@@ -2,7 +2,7 @@
 const board = document.getElementById('board');
 const cells = document.querySelectorAll('.cell');
 const statusText = document.getElementById('status');
-const resetBtn = document.getElementById('reset');
+const resetBtn = document.getElementById('reset-btn');
 
 let currentPlayer = 'X';
 let gameState = ["", "", "", "", "", "", "", "", ""];
@@ -71,6 +71,3 @@ function restartGame() {
     cells.forEach(cell => cell.textContent = "");
 }
 
-// Global Event Listeners
-cells.forEach(cell => cell.addEventListener('click', handleCellClick));
-resetBtn.addEventListener('click', restartGame);
