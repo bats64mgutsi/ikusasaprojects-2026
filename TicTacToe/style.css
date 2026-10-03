@@ -1,1 +1,89 @@
-<
+/* Reset and Base Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f172a; /* Dark sleek background */
+    color: #f8fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.game-container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.status {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #cbd5e1;
+}
+
+/* 3x3 Grid Layout */
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+/* Individual Cell Styles */
+.cell {
+    background-color: #1e293b;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.cell:hover {
+    background-color: #334155;
+}
+
+.cell:active {
+    transform: scale(0.95);
+}
+
+/* Distinct color styling for X and O players */
+.cell.x {
+    color: #38bdf8; /* Light blue */
+}
+
+.cell.o {
+    color: #f43f5e; /* Coral pink */
+}
+
+/* Reset Button Styles */
+.reset-btn {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.reset-btn:hover {
+    background-color: #1d4ed8;
+}
+
