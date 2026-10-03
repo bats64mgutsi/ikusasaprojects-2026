@@ -1,10 +1,17 @@
-body{
-    background-image: url(goku.jpg);
-    color: #f0eaea;
-    background-size: cover;
-    background-repeat: no-repeat;
+body {
+    background-image: url("project 1.png");
+    color: #e20e0e;
+    background-size: fill;
+    background-repeat: repeat;
 }
-h1{
-    color: #e7dddd;
-    border: 2px solid #e7dddd;
+
+h1 {
+    color: #ff0101;
+    border: 2px solid #ff0000;
+}
+
+h1, h2 {
+    background-image: url("mina.png")
+    color: #ff0000;
+    border: 2px solid #ff0000;
 }
