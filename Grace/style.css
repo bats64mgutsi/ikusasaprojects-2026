@@ -4,29 +4,31 @@ height: 100%;
 h1{
     color: rgb(256, 250, 216);
 }
-h2{
-    color: antiquewhite;
+h1{
+    color: rgb(253, 146, 6);
 }
 ul{
-    color: antiquewhite;
+    color: rgb(250, 215, 238);
 }
-h3{
-    color: blue;
+h1{
+    color: rgb(251, 252, 249);
 }
 ul{
-    color: aliceblue;
+    color: rgb(20, 135, 236);
 }
 ol{
-    color: cornsilk;
+    color: lch(90.57% 92.6 108.1);
 }
 p{
     color: bisque;
 }
-
+li{
+    color: rgb(237, 240, 241);
+}
 body{
-    background-image: url("background.jpg");
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('newbackground.jpg');
     /* background-size: cover; */
-     background-size: contain;
+     background-size:cover;
     /* background-position: center center; */
     min-height: 100dvh;
     /* background-repeat: repeat; */
